@@ -55,8 +55,8 @@ jobs:
     - name: Get git revision
       id: get_git_revision
       run: |
-        echo "::set-output name=tag_name::$(($(git rev-list HEAD --count) ))"
-        echo "::set-output name=release_name::$(($(git rev-list HEAD --count) ))"
+        echo "tag_name=$(( $(git rev-list HEAD --count) ))" >> $GITHUB_OUTPUT
+        echo "release_name=$(( $(git rev-list HEAD --count) ))" >> $GITHUB_OUTPUT
 
     - name: Create Release and Upload APKs
       uses: softprops/action-gh-release@v3
