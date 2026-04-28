@@ -61,10 +61,10 @@ jobs:
     - name: Create Release and Upload APKs
       uses: softprops/action-gh-release@v3
       with:
-	tag_name: tag-${{ steps.get_git_revision.outputs.tag_name }}
-	name: Release ${{ steps.get_git_revision.outputs.release_name }}
-	draft: false
-	prerelease: false
-	files: |
-	  ./app/build/outputs/apk/armv8-/release/chessfish-armv8.zip
-	  ./app/build/outputs/apk/armv8-dotprod-/release/chessfish-armv8-dotprod.zip
+          tag_name: tag-${{ steps.get_git_revision.outputs.tag_name }}
+          name: Release ${{ steps.get_git_revision.outputs.release_name }}
+          draft: false
+          prerelease: false
+          files: |
+            ./app/build/outputs/apk/armv8-/release/chessfish-armv8.zip
+            ./app/build/outputs/apk/armv8-dotprod-/release/chessfish-armv8-dotprod.zip
