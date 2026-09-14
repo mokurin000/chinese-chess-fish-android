@@ -48,11 +48,6 @@ jobs:
       run: |
         zip -r ./chessfish-armv8.zip *.apk
 
-    - name: Create ZIP armv8-dotprod
-      working-directory: ./app/build/outputs/apk/armv8-dotprod-/release/
-      run: |
-        zip -r ./chessfish-armv8-dotprod.zip *.apk
-
     - name: Get git revision
       id: get_git_revision
       run: |
@@ -68,4 +63,3 @@ jobs:
           prerelease: false
           files: |
             ./app/build/outputs/apk/armv8-/release/chessfish-armv8.zip
-            ./app/build/outputs/apk/armv8-dotprod-/release/chessfish-armv8-dotprod.zip

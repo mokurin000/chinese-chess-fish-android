@@ -5,7 +5,6 @@ echo "Build APK"
 echo "copy apk"
 rm docs/apk/*.apk
 cp app/build/outputs/apk/armv8-/release/*.apk app/build/
-cp app/build/outputs/apk/armv8-dotprod-/release/*.apk app/build/
 
 ## find apk filename
 # cd ./docs/apk/

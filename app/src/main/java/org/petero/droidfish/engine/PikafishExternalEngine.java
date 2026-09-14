@@ -46,7 +46,6 @@ public class PikafishExternalEngine extends ExternalEngine {
 
     // PikafishEngineFile: the name of the engine file in /data/lib directory, two flavors:
     // pikafish-armv8
-    // pikafish-armv8-dotprod
     private static final String PikafishEngineFile = BuildConfig.PIKAFISH_ENGINE_FILE;
 
     private final String nativeLibraryDir = ChessApp.getContext().getApplicationInfo().nativeLibraryDir;

@@ -70,11 +70,6 @@ android {
             dimension = "pikafish"
             buildConfigField("String", "PIKAFISH_ENGINE_FILE", "\"libpikafish-armv8.so\"")
         }
-        create("armv8-dotprod-") {
-            //flavor configurations here
-            dimension = "pikafish"
-            buildConfigField("String", "PIKAFISH_ENGINE_FILE", "\"libpikafish-armv8-dotprod.so\"")
-        }
     }
 
     // https://gist.github.com/mileskrell/7074c10cb3298a2c9d75e733be7061c2
