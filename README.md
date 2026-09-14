@@ -21,17 +21,6 @@
 
 [https://fish.zfdang.com/release.html](https://fish.zfdang.com/release.html)
 
-#### 问题：我该下载哪个apk？
-
-有两个版本：
-
-1. chessfish-armv8-dotprod.zip
-2. chessfish-armv8.zip
-
-如果你的手机是最近几年买的，你的CPU支持dotprod技术，那么就下载chessfish-armv8-dotprod.zip。
-
-如果dotprod版本没法正常工作，就下载chessfish-armv8.zip。
-
 ## 开源免费
 
 希望更多人能参与进来，一起打造一个好用的安卓Android版的中国象棋学习工具！

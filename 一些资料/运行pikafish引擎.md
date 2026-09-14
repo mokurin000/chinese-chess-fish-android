@@ -76,15 +76,12 @@ tasks.named("preBuild") {
 
 ### src/main/pikafish/的内容
 
-app/src/main/pikafish/arm64-v8a/libpikafish-armv8-dotprod.so
-
 ```
 ❯ pwd
 app/src/main/pikafish
 ❯ tree
 .
 └── arm64-v8a
-    ├── libpikafish-armv8-dotprod.so
     ├── libpikafish-armv8.so
     ├── libpikafish.ini.so
     └── libpikafish.nnue.so
